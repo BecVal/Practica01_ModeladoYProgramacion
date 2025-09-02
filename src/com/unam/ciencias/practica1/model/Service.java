@@ -1,8 +1,8 @@
 
 package com.unam.ciencias.practica1.model;
 
-import com.unam.ciencias.practica1.patterns.Observer;
-import com.unam.ciencias.practica1.patterns.Subject;
+import com.unam.ciencias.practica1.patterns.observer.Observer;
+import com.unam.ciencias.practica1.patterns.observer.Subject;
 import java.util.ArrayList;
 import java.util.List;
 
