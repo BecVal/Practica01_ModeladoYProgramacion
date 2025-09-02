@@ -19,7 +19,5 @@ public interface Observer {
      * the notification.
      * @param message Message sent by the service.
      */
-    void update(String service, String message){
-        
-    }
+    void update(String service, String message);
 }

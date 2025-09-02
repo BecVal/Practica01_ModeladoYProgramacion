@@ -20,9 +20,7 @@ public interface Subject {
      * @param observer The observer you want to
      * register.
      */
-    void registerObserver(Observer observer){
-
-    }
+    void registerObserver(Observer observer);
 
     /*
      * Method that removes an observer from the 
@@ -31,9 +29,7 @@ public interface Subject {
      * @param observer The observer you want to
      * remove.
      */
-    void removeObserver(Observer observer) {
-
-    }
+    void removeObserver(Observer observer);
 
     /*
      * Method that notifies all registered observers 
@@ -41,8 +37,6 @@ public interface Subject {
      * 
      * @param message The message to be sent to observers.
      */
-    void notifyObserver(String message){
-
-    }
+    void notifyObserver(String message);
 
 }
