@@ -14,7 +14,7 @@ import java.util.List;
  * tp register users as observers and send them
  * notifications.
  */
-public abstract class Service{
+public abstract class Service implements Subject{
 
     protected String name;
     protected List<Observer> observer;
