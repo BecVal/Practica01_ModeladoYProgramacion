@@ -1,17 +1,19 @@
-package com.unam.ciencias.practica1.model;
+package com.unam.ciencias.practica1.model.services;
 
+import com.unam.ciencias.practica1.patterns.strategy.payment.*;
+import com.unam.ciencias.practica1.model.Plan;
+import com.unam.ciencias.practica1.model.Service;
 import java.util.Random;
 import java.util.ArrayList;
-import java.util.List;
 
 public class MemeFlix extends Service {
+    private ArrayList<String> recommendations;
 
     public MemeFlix() {
         super("MemeFlix");
-        // Ejemplo: agregar algunos planes
-        availablePlans.add(new Plan("Plan de Un Dispositivo", 120.0));
-        availablePlans.add(new Plan("Plan de Dos dispositivos", 170.0));
-        availablePlans.add(new Plan("Plan de 4 Dispositivos", 200.0));
+        availablePlans.add(new Plan(new FixedPayment(120.0, "Plan de Un Dispositivo")));
+        availablePlans.add(new Plan(new FixedPayment(170.0, "Plan de Dos dispositivos")));
+        availablePlans.add(new Plan(new FixedPayment(200.0, "Plan de Cuatro Dispositivos")));
 
         recommendations = new ArrayList<String>();
         recommendations.add("");
