@@ -1,6 +1,9 @@
 package com.unam.ciencias.practica1.model;
 
-import com.unam.ciencias.practica1.patterns.Observer;
+import com.unam.ciencias.practica1.patterns.observer.Observer;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,8 +38,8 @@ public class User implements Observer {
      * {@inheritDoc}
      */
     @Override
-    public void update (String service, String message) {
-        System.out.println("[" + name + "] Notified " + service + ": " + message);
+    public void update (String service, String message, BufferedWriter out) throws IOException {
+        out.write("[" + name + "] Notified " + service + ": " + message + "\n");
     }
 
     /*
@@ -46,25 +49,26 @@ public class User implements Observer {
      * @param service Service to which the user wishes
      * to subscribe.
      * @param plan Plan that the user wishes to contract.
+     * @param out BufferedWriter to write to file
      */
-    public void subscribe(Service service, Plan plan) {
+    public void subscribe(Service service, Plan plan, BufferedWriter out) throws IOException {
         subscriptions.put(service, plan);
-        service.registerObserver(service, plan);
-        System.out.println(name + " subscribed to " + service.name + " with the plan: " + plan.getDescription());
+        service.registerObserver(this);
+        out.write(name + " subscribed to " + service.getName() + " with the plan: " + plan.getDescription() + "\n");
     }
 
     /*
      * Method that cancels the subscription to a service
      * 
      * @param service Service to be canceled.
+     * @param out BufferedWriter to write to file
      */
-    public void cancelSubscription(Service service){
+    public void cancelSubscription(Service service, BufferedWriter out) throws IOException{
         if (subscriptions.containsKey(service)){
-            subscriptions.remove(service);
             service.removeObserver(this);
-            System.out.println(name + " canceled their subscription to: " + service.name);
+            out.write(name + " canceled their subscription to: " + service.name + "\n");
         } else{
-            System.out.println(name + " was not subscribed to: " + service.name);
+            out.write(name + " was not subscribed to: " + service.name + "\n");
         }
     }
 
@@ -73,16 +77,17 @@ public class User implements Observer {
      * user's balance.
      * 
      * @param amount Amount to be paid.
+     * @param out BufferedWriter to write to file
      * @return true if the payment was successful, false
      * if these is insufficient balance.
      */
-    public boolean makePayment(double amount){
+    public boolean makePayment(double amount, BufferedWriter out) throws IOException{
         if (balance >= amount){
             balance -= amount;
-            System.out.println(name + " paid $" + amount + ". Their remaining balance is: $" + balance);
+            out.write(name + " paid $" + amount + ". Their remaining balance is: $" + balance + "\n");
             return true;
         } else {
-            System.out.println(name + " does not have enough balance to pay$" + amount);
+            out.write(name + " does not have enough balance to pay$" + amount + "\n");
             return false;
         }
     }

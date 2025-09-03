@@ -30,12 +30,6 @@ public class HvoMax extends Service {
     
   }
   
-
-  @Override 
-  public void chargeSubscribers() {
-    notifyObserver("¡Se ha realizado el cobro mensual de tu suscripción en HvoMax!");
-  }
-
   @Override
   public String getRecommendationOfTheMonth() {
     Random random = new Random();

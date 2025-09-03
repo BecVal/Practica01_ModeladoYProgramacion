@@ -1,0 +1,1481 @@
+Alicia subscribed to MemeFlix with the plan: MemeFlix for 4 devices
+Alicia subscribed to Momazon with the plan: Momazon Premium
+Alicia subscribed to Spootify with the plan: Spootify Premium
+Alicia subscribed to ThisneyPlus with the plan: Thisney Plus
+Alicia subscribed to HvoMax with the plan: HVO Max
+Bob subscribed to MemeFlix with the plan: MemeFlix for 4 devices
+Bob subscribed to Momazon with the plan: Momazon Premium
+Bob subscribed to Spootify with the plan: Spootify Premium
+Bob subscribed to ThisneyPlus with the plan: Thisney Plus
+Bob subscribed to HvoMax with the plan: HVO Max
+César subscribed to ThisneyPlus with the plan: Thisney Plus
+César subscribed to HvoMax with the plan: HVO Max
+Diego subscribed to HvoMax with the plan: HVO Max
+Diego subscribed to Momazon with the plan: Momazon Premium
+Diego subscribed to Spootify with the plan: Free version
+Erika subscribed to MemeFlix with the plan: MemeFlix for 4 devices
+Erika subscribed to Spootify with the plan: Free version
+Erika subscribed to HvoMax with the plan: HVO Max
+Fausto subscribed to ThisneyPlus with the plan: Thisney Plus
+Fausto subscribed to HvoMax with the plan: HVO Max
+=== Streaming Services Simulation ===
+
+------------------------------
+Month 1
+------------------------------
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $14800.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 1 months!! 
+
+Bob paid $200.0. Their remaining balance is: $2200.0
+[Bob] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Bob] Notified MemeFlix: Bob, you have been subscribed for 1 months!! 
+
+Erika paid $200.0. Their remaining balance is: $9800.0
+[Erika] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Erika] Notified MemeFlix: Erika, you have been subscribed for 1 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $14650.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 1 months!! 
+
+Bob paid $150.0. Their remaining balance is: $2050.0
+[Bob] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Bob] Notified Momazon: Bob, you have been subscribed for 1 months!! 
+
+Diego paid $150.0. Their remaining balance is: $8850.0
+[Diego] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Diego] Notified Momazon: Diego, you have been subscribed for 1 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $14570.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 1 months!! 
+
+Bob paid $80.0. Their remaining balance is: $1970.0
+[Bob] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Bob] Notified Spootify: Bob, you have been subscribed for 1 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8850.0
+[Diego] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 1 months!! 
+
+Erika paid $0.0. Their remaining balance is: $9800.0
+[Erika] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified Spootify: Erika, you have been subscribed for 1 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $130.0. Their remaining balance is: $14440.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 1 months!! 
+
+Bob paid $130.0. Their remaining balance is: $1840.0
+[Bob] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Bob] Notified ThisneyPlus: Bob, you have been subscribed for 1 months!! 
+
+César paid $130.0. Their remaining balance is: $4870.0
+[César] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 1 months!! 
+
+Fausto paid $130.0. Their remaining balance is: $4870.0
+[Fausto] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Fausto] Notified ThisneyPlus: Fausto, you have been subscribed for 1 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $0.0. Their remaining balance is: $14440.0
+[Alicia] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 1 months!! 
+
+Bob paid $0.0. Their remaining balance is: $1840.0
+[Bob] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Bob] Notified HvoMax: Bob, you have been subscribed for 1 months!! 
+
+César paid $0.0. Their remaining balance is: $4870.0
+[César] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 1 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8850.0
+[Diego] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 1 months!! 
+
+Erika paid $0.0. Their remaining balance is: $9800.0
+[Erika] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified HvoMax: Erika, you have been subscribed for 1 months!! 
+
+Fausto paid $0.0. Their remaining balance is: $4870.0
+[Fausto] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Fausto] Notified HvoMax: Fausto, you have been subscribed for 1 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 2
+------------------------------
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $14240.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 2 months!! 
+
+Bob paid $200.0. Their remaining balance is: $1640.0
+[Bob] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Bob] Notified MemeFlix: Bob, you have been subscribed for 2 months!! 
+
+Erika paid $200.0. Their remaining balance is: $9600.0
+[Erika] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Erika] Notified MemeFlix: Erika, you have been subscribed for 2 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $14090.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 2 months!! 
+
+Bob paid $150.0. Their remaining balance is: $1490.0
+[Bob] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Bob] Notified Momazon: Bob, you have been subscribed for 2 months!! 
+
+Diego paid $150.0. Their remaining balance is: $8700.0
+[Diego] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Diego] Notified Momazon: Diego, you have been subscribed for 2 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $14010.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 2 months!! 
+
+Bob paid $80.0. Their remaining balance is: $1410.0
+[Bob] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Bob] Notified Spootify: Bob, you have been subscribed for 2 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8700.0
+[Diego] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 2 months!! 
+
+Erika paid $0.0. Their remaining balance is: $9600.0
+[Erika] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified Spootify: Erika, you have been subscribed for 2 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $130.0. Their remaining balance is: $13880.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 2 months!! 
+
+Bob paid $130.0. Their remaining balance is: $1280.0
+[Bob] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Bob] Notified ThisneyPlus: Bob, you have been subscribed for 2 months!! 
+
+César paid $130.0. Their remaining balance is: $4740.0
+[César] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 2 months!! 
+
+Fausto paid $130.0. Their remaining balance is: $4740.0
+[Fausto] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Fausto] Notified ThisneyPlus: Fausto, you have been subscribed for 2 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $0.0. Their remaining balance is: $13880.0
+[Alicia] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 2 months!! 
+
+Bob paid $0.0. Their remaining balance is: $1280.0
+[Bob] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Bob] Notified HvoMax: Bob, you have been subscribed for 2 months!! 
+
+César paid $0.0. Their remaining balance is: $4740.0
+[César] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 2 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8700.0
+[Diego] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 2 months!! 
+
+Erika paid $0.0. Their remaining balance is: $9600.0
+[Erika] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified HvoMax: Erika, you have been subscribed for 2 months!! 
+
+Fausto paid $0.0. Their remaining balance is: $4740.0
+[Fausto] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Fausto] Notified HvoMax: Fausto, you have been subscribed for 2 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 3
+------------------------------
+Erika canceled their subscription to: HvoMax
+Erika subscribed to ThisneyPlus with the plan: Thisney Plus
+Erika cancelled HvoMax, subscribed to ThisneyPlus.
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $13680.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 3 months!! 
+
+Bob paid $200.0. Their remaining balance is: $1080.0
+[Bob] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Bob] Notified MemeFlix: Bob, you have been subscribed for 3 months!! 
+
+Erika paid $200.0. Their remaining balance is: $9400.0
+[Erika] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Erika] Notified MemeFlix: Erika, you have been subscribed for 3 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $13530.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 3 months!! 
+
+Bob paid $150.0. Their remaining balance is: $930.0
+[Bob] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Bob] Notified Momazon: Bob, you have been subscribed for 3 months!! 
+
+Diego paid $150.0. Their remaining balance is: $8550.0
+[Diego] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Diego] Notified Momazon: Diego, you have been subscribed for 3 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $13450.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 3 months!! 
+
+Bob paid $80.0. Their remaining balance is: $850.0
+[Bob] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Bob] Notified Spootify: Bob, you have been subscribed for 3 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8550.0
+[Diego] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 3 months!! 
+
+Erika paid $0.0. Their remaining balance is: $9400.0
+[Erika] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified Spootify: Erika, you have been subscribed for 3 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $130.0. Their remaining balance is: $13320.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 3 months!! 
+
+Bob paid $130.0. Their remaining balance is: $720.0
+[Bob] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Bob] Notified ThisneyPlus: Bob, you have been subscribed for 3 months!! 
+
+César paid $130.0. Their remaining balance is: $4610.0
+[César] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 3 months!! 
+
+Fausto paid $130.0. Their remaining balance is: $4610.0
+[Fausto] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Fausto] Notified ThisneyPlus: Fausto, you have been subscribed for 3 months!! 
+
+Erika paid $130.0. Their remaining balance is: $9270.0
+[Erika] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Erika] Notified ThisneyPlus: Erika, you have been subscribed for 1 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $0.0. Their remaining balance is: $13320.0
+[Alicia] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 3 months!! 
+
+Bob paid $0.0. Their remaining balance is: $720.0
+[Bob] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Bob] Notified HvoMax: Bob, you have been subscribed for 3 months!! 
+
+César paid $0.0. Their remaining balance is: $4610.0
+[César] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 3 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8550.0
+[Diego] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 3 months!! 
+
+Fausto paid $0.0. Their remaining balance is: $4610.0
+[Fausto] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Fausto] Notified HvoMax: Fausto, you have been subscribed for 3 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 4
+------------------------------
+Bob canceled their subscription to: ThisneyPlus
+Bob canceled their subscription to: HvoMax
+Bob cancelled ThisneyPlus and HvoMax.
+Fausto canceled their subscription to: ThisneyPlus
+Fausto canceled their subscription to: HvoMax
+Fausto subscribed to MemeFlix with the plan: MemeFlix for 1 device
+Fausto switched to MemeFlix(1).
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $13120.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 4 months!! 
+
+Bob paid $200.0. Their remaining balance is: $520.0
+[Bob] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Bob] Notified MemeFlix: Bob, you have been subscribed for 4 months!! 
+
+Erika paid $200.0. Their remaining balance is: $9070.0
+[Erika] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Erika] Notified MemeFlix: Erika, you have been subscribed for 4 months!! 
+
+Fausto paid $120.0. Their remaining balance is: $4490.0
+[Fausto] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Fausto] Notified MemeFlix: Fausto, you have been subscribed for 1 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $12970.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 4 months!! 
+
+Bob paid $150.0. Their remaining balance is: $370.0
+[Bob] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Bob] Notified Momazon: Bob, you have been subscribed for 4 months!! 
+
+Diego paid $150.0. Their remaining balance is: $8400.0
+[Diego] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Diego] Notified Momazon: Diego, you have been subscribed for 4 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $12890.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 4 months!! 
+
+Bob paid $80.0. Their remaining balance is: $290.0
+[Bob] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Bob] Notified Spootify: Bob, you have been subscribed for 4 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8400.0
+[Diego] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 4 months!! 
+
+Erika paid $0.0. Their remaining balance is: $9070.0
+[Erika] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified Spootify: Erika, you have been subscribed for 4 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $12730.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 4 months!! 
+
+César paid $160.0. Their remaining balance is: $4450.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 4 months!! 
+
+Erika paid $130.0. Their remaining balance is: $8940.0
+[Erika] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Erika] Notified ThisneyPlus: Erika, you have been subscribed for 2 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $12590.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 4 months!! 
+
+César paid $140.0. Their remaining balance is: $4310.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 4 months!! 
+
+Diego paid $140.0. Their remaining balance is: $8260.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 4 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 5
+------------------------------
+Bob canceled their subscription to: MemeFlix
+Bob canceled their subscription to: Momazon
+Bob cancelled MemeFlix and Momazon.
+Fausto subscribed to ThisneyPlus with the plan: Thisney Plus
+Fausto subscribed to HvoMax with the plan: HVO Max
+Fausto subscribed again to ThisneyPlus and HvoMax.
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $12390.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 5 months!! 
+
+Erika paid $200.0. Their remaining balance is: $8740.0
+[Erika] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Erika] Notified MemeFlix: Erika, you have been subscribed for 5 months!! 
+
+Fausto paid $120.0. Their remaining balance is: $4370.0
+[Fausto] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Fausto] Notified MemeFlix: Fausto, you have been subscribed for 2 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $12240.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 5 months!! 
+
+Diego paid $150.0. Their remaining balance is: $8110.0
+[Diego] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Diego] Notified Momazon: Diego, you have been subscribed for 5 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $12160.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 5 months!! 
+
+Bob paid $80.0. Their remaining balance is: $210.0
+[Bob] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Bob] Notified Spootify: Bob, you have been subscribed for 5 months!! 
+
+Diego paid $0.0. Their remaining balance is: $8110.0
+[Diego] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 5 months!! 
+
+Erika paid $0.0. Their remaining balance is: $8740.0
+[Erika] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified Spootify: Erika, you have been subscribed for 5 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $12000.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 5 months!! 
+
+César paid $160.0. Their remaining balance is: $4150.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 5 months!! 
+
+Erika paid $130.0. Their remaining balance is: $8610.0
+[Erika] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Erika] Notified ThisneyPlus: Erika, you have been subscribed for 3 months!! 
+
+Fausto paid $130.0. Their remaining balance is: $4240.0
+[Fausto] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Fausto] Notified ThisneyPlus: Fausto, you have been subscribed for 1 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $11860.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 5 months!! 
+
+César paid $140.0. Their remaining balance is: $4010.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 5 months!! 
+
+Diego paid $140.0. Their remaining balance is: $7970.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 5 months!! 
+
+Fausto paid $0.0. Their remaining balance is: $4240.0
+[Fausto] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Fausto] Notified HvoMax: Fausto, you have been subscribed for 1 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 6
+------------------------------
+Diego subscribed to ThisneyPlus with the plan: Thisney Plus
+Diego subscribed to ThisneyPlus.
+Erika canceled their subscription to: MemeFlix
+Erika canceled their subscription to: Spootify
+Erika canceled their subscription to: ThisneyPlus
+Erika cancelled all services.
+Fausto canceled their subscription to: ThisneyPlus
+Fausto canceled their subscription to: HvoMax
+Fausto canceled their subscription to: MemeFlix
+Fausto cancelled all services again.
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $11660.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 6 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $11510.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 6 months!! 
+
+Diego paid $150.0. Their remaining balance is: $7820.0
+[Diego] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Diego] Notified Momazon: Diego, you have been subscribed for 6 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $11430.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 6 months!! 
+
+Bob paid $80.0. Their remaining balance is: $130.0
+[Bob] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Bob] Notified Spootify: Bob, you have been subscribed for 6 months!! 
+
+Diego paid $0.0. Their remaining balance is: $7820.0
+[Diego] Notified Spootify: The monthly payment of $0.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 6 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $11270.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 6 months!! 
+
+César paid $160.0. Their remaining balance is: $3850.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 6 months!! 
+
+Diego paid $130.0. Their remaining balance is: $7690.0
+[Diego] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Diego] Notified ThisneyPlus: Diego, you have been subscribed for 1 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $11130.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 6 months!! 
+
+César paid $140.0. Their remaining balance is: $3710.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 6 months!! 
+
+Diego paid $140.0. Their remaining balance is: $7550.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 6 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 7
+------------------------------
+César subscribed to Spootify with the plan: Spootify Premium
+César subscribed to Spootify Premium.
+Diego subscribed to MemeFlix with the plan: MemeFlix for 1 device
+Diego canceled their subscription to: Momazon
+Diego subscribed to Spootify with the plan: Spootify Premium
+Diego subscribed to MemeFlix(1), upgraded Spootify to Premium, cancelled Momazon.
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $10930.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 7 months!! 
+
+Diego paid $120.0. Their remaining balance is: $7430.0
+[Diego] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Diego] Notified MemeFlix: Diego, you have been subscribed for 1 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $10780.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 7 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $10700.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 7 months!! 
+
+Bob paid $80.0. Their remaining balance is: $50.0
+[Bob] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Bob] Notified Spootify: Bob, you have been subscribed for 7 months!! 
+
+Diego paid $80.0. Their remaining balance is: $7350.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 1 months!! 
+
+César paid $80.0. Their remaining balance is: $3630.0
+[César] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[César] Notified Spootify: César, you have been subscribed for 1 months!! 
+
+Diego paid $80.0. Their remaining balance is: $7270.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 2 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to César: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $10540.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 7 months!! 
+
+César paid $160.0. Their remaining balance is: $3470.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 7 months!! 
+
+Diego paid $130.0. Their remaining balance is: $7140.0
+[Diego] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Diego] Notified ThisneyPlus: Diego, you have been subscribed for 2 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $10400.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 7 months!! 
+
+César paid $140.0. Their remaining balance is: $3330.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 7 months!! 
+
+Diego paid $140.0. Their remaining balance is: $7000.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 7 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 8
+------------------------------
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $10200.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 8 months!! 
+
+Diego paid $120.0. Their remaining balance is: $6880.0
+[Diego] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Diego] Notified MemeFlix: Diego, you have been subscribed for 2 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $10050.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 8 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $9970.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 8 months!! 
+
+Bob does not have enough balance to pay$80.0
+[Bob] Notified Spootify: We are sorry, Spootify, you do not have sufficient funds to pay this service. 
+
+Diego paid $80.0. Their remaining balance is: $6800.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 3 months!! 
+
+César paid $80.0. Their remaining balance is: $3250.0
+[César] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[César] Notified Spootify: César, you have been subscribed for 2 months!! 
+
+Diego paid $80.0. Their remaining balance is: $6720.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 4 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to César: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $9810.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 8 months!! 
+
+César paid $160.0. Their remaining balance is: $3090.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 8 months!! 
+
+Diego paid $130.0. Their remaining balance is: $6590.0
+[Diego] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Diego] Notified ThisneyPlus: Diego, you have been subscribed for 3 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $9670.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 8 months!! 
+
+César paid $140.0. Their remaining balance is: $2950.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 8 months!! 
+
+Diego paid $140.0. Their remaining balance is: $6450.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 8 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 9
+------------------------------
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $9470.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 9 months!! 
+
+Diego paid $120.0. Their remaining balance is: $6330.0
+[Diego] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Diego] Notified MemeFlix: Diego, you have been subscribed for 3 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $9320.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 9 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $9240.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 9 months!! 
+
+Diego paid $80.0. Their remaining balance is: $6250.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 5 months!! 
+
+César paid $80.0. Their remaining balance is: $2870.0
+[César] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[César] Notified Spootify: César, you have been subscribed for 3 months!! 
+
+Diego paid $80.0. Their remaining balance is: $6170.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 6 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to César: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $9080.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 9 months!! 
+
+César paid $160.0. Their remaining balance is: $2710.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 9 months!! 
+
+Diego paid $160.0. Their remaining balance is: $6010.0
+[Diego] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Diego] Notified ThisneyPlus: Diego, you have been subscribed for 4 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $8940.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 9 months!! 
+
+César paid $140.0. Their remaining balance is: $2570.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 9 months!! 
+
+Diego paid $140.0. Their remaining balance is: $5870.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 9 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 10
+------------------------------
+Erika subscribed to Momazon with the plan: Momazon Premium
+Erika subscribed to HvoMax with the plan: HVO Max
+Erika subscribed to ThisneyPlus with the plan: Thisney Plus
+Erika subscribed again to Momazon Premium, HvoMax and ThisneyPlus.
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $8740.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 10 months!! 
+
+Diego paid $120.0. Their remaining balance is: $5750.0
+[Diego] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Diego] Notified MemeFlix: Diego, you have been subscribed for 4 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $8590.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 10 months!! 
+
+Erika paid $150.0. Their remaining balance is: $8460.0
+[Erika] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Erika] Notified Momazon: Erika, you have been subscribed for 1 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Erika: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $8510.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 10 months!! 
+
+Diego paid $80.0. Their remaining balance is: $5670.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 7 months!! 
+
+César paid $80.0. Their remaining balance is: $2490.0
+[César] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[César] Notified Spootify: César, you have been subscribed for 4 months!! 
+
+Diego paid $80.0. Their remaining balance is: $5590.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 8 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to César: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $8350.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 10 months!! 
+
+César paid $160.0. Their remaining balance is: $2330.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 10 months!! 
+
+Diego paid $160.0. Their remaining balance is: $5430.0
+[Diego] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Diego] Notified ThisneyPlus: Diego, you have been subscribed for 5 months!! 
+
+Erika paid $130.0. Their remaining balance is: $8330.0
+[Erika] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Erika] Notified ThisneyPlus: Erika, you have been subscribed for 1 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $8210.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 10 months!! 
+
+César paid $140.0. Their remaining balance is: $2190.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 10 months!! 
+
+Diego paid $140.0. Their remaining balance is: $5290.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 10 months!! 
+
+Erika paid $0.0. Their remaining balance is: $8330.0
+[Erika] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified HvoMax: Erika, you have been subscribed for 1 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 11
+------------------------------
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $8010.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 11 months!! 
+
+Diego paid $120.0. Their remaining balance is: $5170.0
+[Diego] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Diego] Notified MemeFlix: Diego, you have been subscribed for 5 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $7860.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 11 months!! 
+
+Erika paid $150.0. Their remaining balance is: $8180.0
+[Erika] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Erika] Notified Momazon: Erika, you have been subscribed for 2 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Erika: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $7780.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 11 months!! 
+
+Diego paid $80.0. Their remaining balance is: $5090.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 9 months!! 
+
+César paid $80.0. Their remaining balance is: $2110.0
+[César] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[César] Notified Spootify: César, you have been subscribed for 5 months!! 
+
+Diego paid $80.0. Their remaining balance is: $5010.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 10 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to César: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $7620.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 11 months!! 
+
+César paid $160.0. Their remaining balance is: $1950.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 11 months!! 
+
+Diego paid $160.0. Their remaining balance is: $4850.0
+[Diego] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Diego] Notified ThisneyPlus: Diego, you have been subscribed for 6 months!! 
+
+Erika paid $130.0. Their remaining balance is: $8050.0
+[Erika] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Erika] Notified ThisneyPlus: Erika, you have been subscribed for 2 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $7480.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 11 months!! 
+
+César paid $140.0. Their remaining balance is: $1810.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 11 months!! 
+
+Diego paid $140.0. Their remaining balance is: $4710.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 11 months!! 
+
+Erika paid $0.0. Their remaining balance is: $8050.0
+[Erika] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified HvoMax: Erika, you have been subscribed for 2 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+------------------------------
+Month 12
+------------------------------
+
+ --- MemeFlix charging ---
+Alicia paid $200.0. Their remaining balance is: $7280.0
+[Alicia] Notified MemeFlix: The monthly payment of $200.0 has been collected. 
+
+[Alicia] Notified MemeFlix: Alicia, you have been subscribed for 12 months!! 
+
+Diego paid $120.0. Their remaining balance is: $4590.0
+[Diego] Notified MemeFlix: The monthly payment of $120.0 has been collected. 
+
+[Diego] Notified MemeFlix: Diego, you have been subscribed for 6 months!! 
+
+Recommendation from MemeFlix to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from MemeFlix to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- Momazon charging ---
+Alicia paid $150.0. Their remaining balance is: $7130.0
+[Alicia] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Alicia] Notified Momazon: Alicia, you have been subscribed for 12 months!! 
+
+Erika paid $150.0. Their remaining balance is: $7900.0
+[Erika] Notified Momazon: The monthly payment of $150.0 has been collected. 
+
+[Erika] Notified Momazon: Erika, you have been subscribed for 3 months!! 
+
+Recommendation from Momazon to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from Momazon to Erika: Este mes te recomendamos la serie: '  '
+
+ --- Spootify charging ---
+Alicia paid $80.0. Their remaining balance is: $7050.0
+[Alicia] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Alicia] Notified Spootify: Alicia, you have been subscribed for 12 months!! 
+
+Diego paid $80.0. Their remaining balance is: $4510.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 11 months!! 
+
+César paid $80.0. Their remaining balance is: $1730.0
+[César] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[César] Notified Spootify: César, you have been subscribed for 6 months!! 
+
+Diego paid $80.0. Their remaining balance is: $4430.0
+[Diego] Notified Spootify: The monthly payment of $80.0 has been collected. 
+
+[Diego] Notified Spootify: Diego, you have been subscribed for 12 months!! 
+
+Recommendation from Spootify to Alicia: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Bob: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to César: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Diego: Este mes te recomendamos escuchar la playlist: '  '
+Recommendation from Spootify to Erika: Este mes te recomendamos escuchar la playlist: '  '
+
+ --- ThisneyPlus charging ---
+Alicia paid $160.0. Their remaining balance is: $6890.0
+[Alicia] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Alicia] Notified ThisneyPlus: Alicia, you have been subscribed for 12 months!! 
+
+César paid $160.0. Their remaining balance is: $1570.0
+[César] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[César] Notified ThisneyPlus: César, you have been subscribed for 12 months!! 
+
+Diego paid $160.0. Their remaining balance is: $4270.0
+[Diego] Notified ThisneyPlus: The monthly payment of $160.0 has been collected. 
+
+[Diego] Notified ThisneyPlus: Diego, you have been subscribed for 7 months!! 
+
+Erika paid $130.0. Their remaining balance is: $7770.0
+[Erika] Notified ThisneyPlus: The monthly payment of $130.0 has been collected. 
+
+[Erika] Notified ThisneyPlus: Erika, you have been subscribed for 3 months!! 
+
+Recommendation from ThisneyPlus to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to César: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from ThisneyPlus to Fausto: Este mes te recomendamos la serie: '  '
+
+ --- HvoMax charging ---
+Alicia paid $140.0. Their remaining balance is: $6750.0
+[Alicia] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Alicia] Notified HvoMax: Alicia, you have been subscribed for 12 months!! 
+
+César paid $140.0. Their remaining balance is: $1430.0
+[César] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[César] Notified HvoMax: César, you have been subscribed for 12 months!! 
+
+Diego paid $140.0. Their remaining balance is: $4130.0
+[Diego] Notified HvoMax: The monthly payment of $140.0 has been collected. 
+
+[Diego] Notified HvoMax: Diego, you have been subscribed for 12 months!! 
+
+Erika paid $0.0. Their remaining balance is: $7770.0
+[Erika] Notified HvoMax: The monthly payment of $0.0 has been collected. 
+
+[Erika] Notified HvoMax: Erika, you have been subscribed for 3 months!! 
+
+Recommendation from HvoMax to Alicia: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Bob: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to César: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Diego: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Erika: Este mes te recomendamos la serie: '  '
+Recommendation from HvoMax to Fausto: Este mes te recomendamos la serie: '  '
+
+=== End of Simulation ===

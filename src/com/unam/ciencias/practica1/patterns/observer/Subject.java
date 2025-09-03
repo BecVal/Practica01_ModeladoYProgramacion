@@ -1,5 +1,8 @@
 package com.unam.ciencias.practica1.patterns.observer;
 
+import java.io.BufferedWriter;
+import java.io.IOException;
+
 /*
  * Subject interface that defines the
  * operations that observable subjects
@@ -36,7 +39,8 @@ public interface Subject {
      * with a message.
      * 
      * @param message The message to be sent to observers.
+     * @param out BufferedWriter to write to file
      */
-    void notifyObserver(String message);
+    void notifyObserver(String message, BufferedWriter out) throws IOException;
 
 }

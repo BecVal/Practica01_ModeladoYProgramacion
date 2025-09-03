@@ -28,21 +28,12 @@ public class MemeFlix extends Service {
         recommendations.add("");
         recommendations.add("");
         recommendations.add("");
-  
     }
-
-    @Override
-    public void chargeSubscribers() {
-        notifyObserver("¡Se ha realizado el cobro mensual de tu suscripción en MemeFlix!");
-    }
-
-
 
     @Override
     public String getRecommendationOfTheMonth() {
-      Random random = new Random();
-
-      return "Este mes te recomendamos la serie: ' " + recommendations.get(random.nextInt(recommendations.size())) + " '" ;
+    Random random = new Random();
+    return "Este mes te recomendamos la serie: ' " + recommendations.get(random.nextInt(recommendations.size())) + " '" ;
     }
 }
 

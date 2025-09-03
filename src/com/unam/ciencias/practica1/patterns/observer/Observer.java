@@ -1,5 +1,8 @@
 package com.unam.ciencias.practica1.patterns.observer;
 
+import java.io.BufferedWriter;
+import java.io.IOException;
+
 /*
  * Observer interface that defines the
  * contract that all observers within
@@ -19,5 +22,5 @@ public interface Observer {
      * the notification.
      * @param message Message sent by the service.
      */
-    void update(String service, String message);
+    void update(String service, String message, BufferedWriter out) throws IOException;
 }

@@ -30,11 +30,6 @@ public class Momazon extends Service {
 
   }
 
-  @Override 
-  public void chargeSubscribers() {
-    notifyObserver("¡Se ha realizado el cobro mensual de tu suscripción en Momazon!");
-  }
-
   @Override
   public String getRecommendationOfTheMonth() {
     Random random = new Random();
