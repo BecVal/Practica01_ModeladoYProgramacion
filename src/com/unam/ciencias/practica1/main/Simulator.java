@@ -21,8 +21,28 @@ import com.unam.ciencias.practica1.patterns.strategy.payment.FixedPayment;
 import com.unam.ciencias.practica1.patterns.strategy.payment.FreePayment;
 import com.unam.ciencias.practica1.patterns.strategy.payment.PaymentPromotion;
 
+
 /**
- * Main simulation class that orchestrates users and services month by month.
+ * Clase principal que simula el comportamiento de usuarios y servicios
+ * de streaming durante un año (12 meses).
+ * <p>
+ * Crea instancias de varios servicios (MemeFlix, Spootify, Momazon, ThisneyPlus, HvoMax),
+ * registra usuarios y suscripciones, aplica cambios mensuales en las suscripciones
+ * y genera recomendaciones de contenido para cada usuario.
+ * </p>
+ * <p>
+ * La simulación escribe todos los eventos (cobros, suscripciones, cancelaciones y recomendaciones)
+ * en un archivo de texto llamado {@code simulation_output.txt}.
+ * </p>
+ * 
+ * Ejemplo de uso:
+ * <pre>
+ *     Simulator simulator = new Simulator();
+ *     simulator.runSimulation();
+ * </pre>
+ * 
+ * @author César
+ * @version 1.0
  */
 public class Simulator {
 
@@ -31,15 +51,20 @@ public class Simulator {
     private final Map<String, Service> serviceMap = new HashMap<>();
     private final DecimalFormat moneyFmt = new DecimalFormat("$0.00");
 
+    /**
+     * Constructor de {@code Simulator}.
+     * <p>
+     * Inicializa los servicios de streaming, los usuarios y registra las
+     * instancias de cada servicio en un mapa para acceso rápido por nombre.
+     * </p>
+     */
     public Simulator() {
-        // Create services
         Service meme = new MemeFlix();
         Service moma = new Momazon();
         Service spoo = new Spootify();
         Service thisney = new ThisneyPlus();
         Service hvo = new HvoMax();
 
-        // Fixed order of charges
         services.add(meme);
         services.add(moma);
         services.add(spoo);
@@ -52,7 +77,6 @@ public class Simulator {
         serviceMap.put("ThisneyPlus", thisney);
         serviceMap.put("HvoMax", hvo);
 
-        // Users with initial money
         User alicia = new User("Alicia", 15000);
         User bob    = new User("Bob", 2400);
         User cesar  = new User("César", 5000);
@@ -68,9 +92,16 @@ public class Simulator {
         users.add(fausto);
     }
 
+    /**
+     * Ejecuta la simulación completa durante 12 meses.
+     * <p>
+     * Cada mes se aplican cambios de suscripción según la programación,
+     * se cobran los servicios a los usuarios y se generan recomendaciones de contenido.
+     * Todos los eventos se escriben en {@code simulation_output.txt}.
+     * </p>
+     */
     public void runSimulation() {
         try (BufferedWriter out = new BufferedWriter(new FileWriter("simulation_output.txt"))) {
-            // Initialize subscriptions
             initializeSubscriptions(out);
 
             out.write("=== Streaming Services Simulation ===\n");
@@ -82,12 +113,10 @@ public class Simulator {
 
                 applySchedule(month, out);
 
-                // Cada servicio cobra a sus suscriptores
                 for (Service service : services) {
                     out.write("\n --- " + service.getName() + " charging ---\n");
                     service.chargeSubscribers(out);
                     
-                    // También mostrar recomendaciones para los usuarios suscritos
                     for (User user : users) {
                         Plan plan = user.getPlanForService(service);
                         if (plan != null) {
@@ -105,6 +134,12 @@ public class Simulator {
         }
     }
 
+    /**
+     * Inicializa las suscripciones de los usuarios al inicio de la simulación.
+     * 
+     * @param out {@link BufferedWriter} donde se registran los eventos de suscripción
+     * @throws IOException si ocurre un error al escribir en el archivo
+     */
     private void initializeSubscriptions(BufferedWriter out) throws IOException {
         Service meme = serviceMap.get("MemeFlix");
         Service moma = serviceMap.get("Momazon");
@@ -112,39 +147,43 @@ public class Simulator {
         Service thisney = serviceMap.get("ThisneyPlus");
         Service hvo = serviceMap.get("HvoMax");
 
-        // Alicia - all services with most expensive plan
         users.get(0).subscribe(meme, new Plan(new FixedPayment(200.0, "MemeFlix for 4 devices")), out);
         users.get(0).subscribe(moma, new Plan(new FixedPayment(150.0, "Momazon Premium")), out);
         users.get(0).subscribe(spoo, new Plan(new FixedPayment(80.0, "Spootify Premium")), out);
         users.get(0).subscribe(thisney, new Plan(new PaymentPromotion(160.0, 130.0, 3, "Thisney Plus")), out);
         users.get(0).subscribe(hvo, new Plan(new PaymentPromotion(140.0, 0.0, 3, "HVO Max")), out);
 
-        // Bob - all services with most expensive plan
         users.get(1).subscribe(meme, new Plan(new FixedPayment(200.0, "MemeFlix for 4 devices")), out);
         users.get(1).subscribe(moma, new Plan(new FixedPayment(150.0, "Momazon Premium")), out);
         users.get(1).subscribe(spoo, new Plan(new FixedPayment(80.0, "Spootify Premium")), out);
         users.get(1).subscribe(thisney, new Plan(new PaymentPromotion(160.0, 130.0, 3, "Thisney Plus")), out);
         users.get(1).subscribe(hvo, new Plan(new PaymentPromotion(140.0, 0.0, 3, "HVO Max")), out);
 
-        // César - only Thisney+ and HVO Max
         users.get(2).subscribe(thisney, new Plan(new PaymentPromotion(160.0, 130.0, 3, "Thisney Plus")), out);
         users.get(2).subscribe(hvo, new Plan(new PaymentPromotion(140.0, 0.0, 3, "HVO Max")), out);
 
-        // Diego - HVO Max, Momazon Premium, Spootify Free
         users.get(3).subscribe(hvo, new Plan(new PaymentPromotion(140.0, 0.0, 3, "HVO Max")), out);
         users.get(3).subscribe(moma, new Plan(new FixedPayment(150.0, "Momazon Premium")), out);
         users.get(3).subscribe(spoo, new Plan(new FreePayment()), out);
 
-        // Erika - MemeFlix 4 devices, Spootify Free, HVO Max
         users.get(4).subscribe(meme, new Plan(new FixedPayment(200.0, "MemeFlix for 4 devices")), out);
         users.get(4).subscribe(spoo, new Plan(new FreePayment()), out);
         users.get(4).subscribe(hvo, new Plan(new PaymentPromotion(140.0, 0.0, 3, "HVO Max")), out);
 
-        // Fausto - Thisney+ and HVO Max
         users.get(5).subscribe(thisney, new Plan(new PaymentPromotion(160.0, 130.0, 3, "Thisney Plus")), out);
         users.get(5).subscribe(hvo, new Plan(new PaymentPromotion(140.0, 0.0, 3, "HVO Max")), out);
     }
-
+    
+    /**
+     * Aplica cambios de suscripción específicos de cada mes.
+     * <p>
+     * Incluye cancelaciones, nuevas suscripciones y upgrades.
+     * </p>
+     * 
+     * @param month mes actual de la simulación (1 a 12)
+     * @param out {@link BufferedWriter} donde se registran los cambios
+     * @throws IOException si ocurre un error al escribir en el archivo
+     */
     private void applySchedule(int month, BufferedWriter out) throws IOException {
         User bob    = find("Bob");
         User cesar  = find("César");
@@ -152,7 +191,6 @@ public class Simulator {
         User erika  = find("Erika");
         User fausto = find("Fausto");
 
-        // Bob
         if (month == 4) {
             bob.cancelSubscription(serviceMap.get("ThisneyPlus"), out);
             bob.cancelSubscription(serviceMap.get("HvoMax"), out);
@@ -164,13 +202,11 @@ public class Simulator {
             out.write("Bob cancelled MemeFlix and Momazon.\n");
         }
 
-        // César
         if (month == 7) {
             cesar.subscribe(serviceMap.get("Spootify"), new Plan(new FixedPayment(80.0, "Spootify Premium")), out);
             out.write("César subscribed to Spootify Premium.\n");
         }
 
-        // Diego
         if (month == 6) {
             diego.subscribe(serviceMap.get("ThisneyPlus"), new Plan(new PaymentPromotion(160.0, 130.0, 3, "Thisney Plus")), out);
             out.write("Diego subscribed to ThisneyPlus.\n");
@@ -182,7 +218,6 @@ public class Simulator {
             out.write("Diego subscribed to MemeFlix(1), upgraded Spootify to Premium, cancelled Momazon.\n");
         }
 
-        // Erika
         if (month == 3) {
             erika.cancelSubscription(serviceMap.get("HvoMax"), out);
             erika.subscribe(serviceMap.get("ThisneyPlus"), new Plan(new PaymentPromotion(160.0, 130.0, 3, "Thisney Plus")), out);
@@ -201,7 +236,6 @@ public class Simulator {
             out.write("Erika subscribed again to Momazon Premium, HvoMax and ThisneyPlus.\n");
         }
 
-        // Fausto
         if (month == 4) {
             fausto.cancelSubscription(serviceMap.get("ThisneyPlus"), out);
             fausto.cancelSubscription(serviceMap.get("HvoMax"), out);
@@ -220,7 +254,13 @@ public class Simulator {
             out.write("Fausto cancelled all services again.\n");
         }
     }
-
+    /**
+     * Busca un usuario por su nombre.
+     * 
+     * @param name nombre del usuario a buscar
+     * @return la instancia de {@link User} correspondiente
+     * @throws java.util.NoSuchElementException si no se encuentra un usuario con ese nombre
+     */
     private User find(String name) {
         return users.stream()
                 .filter(u -> u.getName().equals(name))
