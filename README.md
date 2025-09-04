@@ -20,7 +20,7 @@ Versión de Java utilizada: 17
 - PaymentPromotion: clase que representa a los tipos de pago que cambian después de un tiempo
 - PaymentStrategy: interfaz con los métodos de pago y descripción, es la base del patrón Strategy
 
-El proyecto consiste en una simulación de cobros y funcionamiento de plataformas de streaming y cómo interactúan estas con los usuarios. El programa nos permite tener observadores de uno o varios sujetos. En este caso específico los sujetos que son servicios de Streaming proveen a los observadores y a cambio les cobran, sin embargo los sujetos se pueden subscribir y desubscribir en cualquier momento que deseen. El programa también genera un archivo.txt que sirve como registro de los cobros hechos a los usuarios.
+El proyecto consiste en una simulación de cobros y funcionamiento de plataformas de streaming y cómo interactúan estas con los usuarios. El programa nos permite tener observadores de uno o varios sujetos. En este caso específico los sujetos que son servicios de Streaming proveen a los observadores y a cambio les cobran, sin embargo los sujetos se pueden subscribir y desubscribir en cualquier momento que deseen. El programa al ser finalizado genera un archivo.txt en el cuál se imprime la secuencia del programa, con los cobros, acciones hechas por los usuarios y las recomendaciones del mes proporcionadas por los sujetos.
 
 Los patrones utilizados fueron los siguientes:
 
