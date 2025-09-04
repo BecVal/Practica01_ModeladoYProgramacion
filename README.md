@@ -2,7 +2,7 @@
 ## Equipo: SQLazo
 - [César Becerra Valencia (322064287)](#César)
 - [Victor Abraham Sánchez Morgado (322606003)](#Victor)
-- [Cortes Nava José Luis (322115437)](#Luis)
+- [José Luis Cortes Nava (322115437)](#Luis)
 
 Versión de Java utilizada: 17
 
