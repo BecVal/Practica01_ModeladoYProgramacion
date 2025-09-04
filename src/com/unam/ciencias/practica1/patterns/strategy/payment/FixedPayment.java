@@ -1,18 +1,15 @@
 package com.unam.ciencias.practica1.patterns.strategy.payment;
 
 /**
- * Payment strategy with a fixed monthly cost.
+ * Payment strategy with a monthly cost.
  */
 public class FixedPayment implements PaymentStrategy {
 
-	/** Fixed monthly cost. */
 	private final double cost;
-
-	/** Description of the plan. */
 	private final String description;
 
 	/**
-	 * Creates a fixed payment strategy.
+	 * Creates a payment strategy.
 	 * @param cost monthly cost
 	 * @param description plan description
 	 */
@@ -22,8 +19,8 @@ public class FixedPayment implements PaymentStrategy {
 	}
 
 	/**
-	 * Returns the fixed cost regardless of months subscribed.
-	 * @param monthsSubscribe number of months subscribed (ignored)
+	 * Returns the cost regardless of months subscribed.
+	 * @param monthsSubscribe number of months subscribed
 	 * @return fixed monthly cost
 	 */
 	@Override

@@ -1,13 +1,12 @@
 package com.unam.ciencias.practica1.patterns.strategy.payment;
 
 /**
- * Strategy interface for calculating subscription costs
- * and providing plan descriptions.
+ * Strategy interface for calculating subscription costs and providing plan descriptions.
  */
 public interface PaymentStrategy {
 
 	/**
-	 * Calculates the monthly cost based on subscription duration.
+	 * Calculates the monthly cost.
 	 * @param monthsSubscribe number of months subscribed
 	 * @return monthly cost
 	 */
